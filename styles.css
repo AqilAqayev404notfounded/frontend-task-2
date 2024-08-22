@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(228, 19, 19);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.write a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.write a:hover {
+    color: rgb(0, 0, 0);
+}
+.write {
+    padding-left: 30px;
+    font-size: 25px;
+}
+.Services ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    padding-left: 500px;
+    padding-top: 10px;
+    text-decoration: none;
+    
+}
+.Services ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.Services ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 80;
+    font-weight: bold; 
+
+    
+}
+
+.Services li {
+    margin-left: 30px; 
+    color: white; 
+}
+.italic {
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 48px;
+    font-style: italic; 
+    font-weight: bold; 
+    position: absolute;
+
+}
+.bold{
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 70px;
+    font-weight: bold; 
+    position: absolute;
+
+
+}
+.bold2{
+    top: 65%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 65px;
+    position: absolute;
+}
+button {
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgb(241, 12, 12); 
+    color: rgb(15, 1, 1); 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white; 
+    color: black; 
+    transition: 300ms;
+}
+img{
+    padding-left: 20px;
+}
+
